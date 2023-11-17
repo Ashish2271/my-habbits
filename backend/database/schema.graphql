@@ -1,0 +1,17 @@
+// schema.graphql
+type Habit {
+  id: ID!
+  name: String!
+  createdAt: String!
+  updatedAt: String!
+}
+
+type Query {
+  habits: [Habit!]!
+}
+
+type Mutation {
+  createHabit(name: String!): Habit!
+  updateHabit(id: ID!, name: String!): Habit!
+  deleteHabit(id: ID!): Habit!
+}

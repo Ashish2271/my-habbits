@@ -1,0 +1,2 @@
+npm migrate dev
+npx prisma studio

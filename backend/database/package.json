@@ -1,0 +1,24 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "prisma": "^5.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "@prisma/client": "^5.6.0",
+    "graphql": "^16.8.1",
+    "shadow-cljs": "^2.26.0"
+  }
+}
